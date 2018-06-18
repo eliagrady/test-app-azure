@@ -26,3 +26,24 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.splash-main-image {
+  margin-top: 100px;
+  height: 400px;
+  transform: rotate(90deg);
+  z-index: -1;
+  position: relative;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.t-txt-link {
+  color: #0895c3;
+}
+.t-txt-link:hover,:active,:focus {
+  border-bottom: 1px solid;
+  padding-bottom: .06em;
+}
